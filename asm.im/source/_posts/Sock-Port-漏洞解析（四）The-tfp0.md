@@ -4,11 +4,6 @@ date: 2019-12-08 19:00:00
 tags: ['Sock Port', 'UAF', 'tfp0']
 ---
 
-# 系列文章
-1. [iOS Jailbreak Principles - Sock Port 漏洞解析（一）UAF 与 Heap Spraying](https://juejin.im/post/5dd10660e51d453fac0a598d)
-2. [iOS Jailbreak Principles - Sock Port 漏洞解析（二）通过 Mach OOL Message 泄露 Port Address](https://juejin.im/post/5dd918d051882573180a2ba7)
-3. [iOS Jailbreak Principles - Sock Port 漏洞解析（三）IOSurface Heap Spraying](https://juejin.im/post/5de37a236fb9a071b5615dea)
-
 # 前言
 通过前 3 篇文章我们已经掌握了通过 Sock Port 达到 tfp0 所需要的 Primitives，本文将带大家分析 Sock Port 利用上述 Primitives 实现 tfp0 的过程。
 

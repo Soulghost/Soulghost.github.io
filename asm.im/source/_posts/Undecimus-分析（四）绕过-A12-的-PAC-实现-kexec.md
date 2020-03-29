@@ -4,15 +4,6 @@ date: 2020-02-11 21:26:31
 tags: ['JailBreak', 'Undecimus', 'PAC', 'KEXEC']
 ---
 
-# 系列文章
-1. [iOS Jailbreak Principles - Sock Port 漏洞解析（一）UAF 与 Heap Spraying](https://juejin.im/post/5dd10660e51d453fac0a598d)
-2. [iOS Jailbreak Principles - Sock Port 漏洞解析（二）通过 Mach OOL Message 泄露 Port Address](https://juejin.im/post/5dd918d051882573180a2ba7)
-3. [iOS Jailbreak Principles - Sock Port 漏洞解析（三）IOSurface Heap Spraying](https://juejin.im/post/5de37a236fb9a071b5615dea)
-4. [iOS Jailbreak Principles - Sock Port 漏洞解析（四）The tfp0 !](https://juejin.im/post/5dec7f2f6fb9a0160c411516)
-5. [iOS Jailbreak Principles - Undecimus 分析（一）Escape from Sandbox](https://juejin.im/post/5df5f6416fb9a016402d1cc0)
-6. [iOS Jailbreak Principles - Undecimus 分析（二）通过 String XREF 定位内核数据](https://juejin.im/post/5e087dbd51882549757e5be2)
-7. [iOS Jailbreak Principles - Undecimus 分析（三）通过 IOTrap 实现内核任意代码执行](https://juejin.im/post/5e1ac76d51882520c02c82c0)
-
 # 前言
 在 [上一篇文章](https://juejin.im/post/5e1ac76d51882520c02c82c0) 中我们介绍了非 arm64e 下通过 IOTrap 实现 kexec 的过程。阻碍 arm64e 实现这一过程的主要因素是 PAC (Pointer Authentication Code) 缓解措施，在这一篇文章中我们将介绍 Undecimus 中绕过 PAC 机制的过程。
 

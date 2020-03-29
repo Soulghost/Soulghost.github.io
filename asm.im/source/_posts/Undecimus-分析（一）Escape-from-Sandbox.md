@@ -4,12 +4,6 @@ date: 2019-12-15 21:00:00
 tags: ['JailBreak', 'Undecimus', 'Sandbox Escape']
 ---
 
-# 系列文章
-1. [iOS Jailbreak Principles - Sock Port 漏洞解析（一）UAF 与 Heap Spraying](https://juejin.im/post/5dd10660e51d453fac0a598d)
-2. [iOS Jailbreak Principles - Sock Port 漏洞解析（二）通过 Mach OOL Message 泄露 Port Address](https://juejin.im/post/5dd918d051882573180a2ba7)
-3. [iOS Jailbreak Principles - Sock Port 漏洞解析（三）IOSurface Heap Spraying](https://juejin.im/post/5de37a236fb9a071b5615dea)
-4. [iOS Jailbreak Principles - Sock Port 漏洞解析（四）The tfp0 !](https://juejin.im/post/5dec7f2f6fb9a0160c411516)
-
 # 前言
 在 Sock Port 系列文章中我们从 0 到 1 的介绍了通过 Socket UAF 拿到 tfp0 的全过程。从这篇文章开始我们将通过分析 [Undecimus](https://github.com/pwn20wndstuff/Undecimus) 介绍从 tfp0 到 jailbreak 的全过程。
 

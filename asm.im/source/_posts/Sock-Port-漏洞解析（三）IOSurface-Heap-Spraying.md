@@ -4,10 +4,6 @@ date: 2019-12-01 20:00:00
 tags: ['SockPort', 'UAF', 'Heap Spraying', 'IOSurface']
 ---
 
-# 系列文章
-1. [iOS Jailbreak Principles - Sock Port 漏洞解析（一）UAF 与 Heap Spraying](https://juejin.im/post/5dd10660e51d453fac0a598d)
-2. [iOS Jailbreak Principles - Sock Port 漏洞解析（二）通过 Mach OOL Message 泄露 Port Address](https://juejin.im/post/5dd918d051882573180a2ba7)
-
 # 前言
 在上一篇文章中，我们介绍了基于 OOL Message 的 Port Address Spraying，这种 Spraying 的局限性很大，只能对已释放区域填充 Port Address。实现 tfp0 的一个关键点是在已释放区域填充任意数据，这就需要我们寻找其他函数作为 Heap Spraying 的工具。
 

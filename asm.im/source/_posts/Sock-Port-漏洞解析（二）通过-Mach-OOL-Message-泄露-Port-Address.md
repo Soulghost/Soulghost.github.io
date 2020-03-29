@@ -1,11 +1,8 @@
 ---
 title: Sock Port 漏洞解析（二）通过 Mach OOL Message 泄露 Port Address
 date: 2019-11-24 20:00:00
-tags: ['Sock Port', 'UAF', 'Mach', 'Mach Port']
+tags: ['Sock Port', 'UAF', 'Mach', 'Mach Port',]
 ---
-
-# 系列文章
-1. [iOS Jailbreak Principles - Sock Port 漏洞解析（一）UAF 与 Heap Spraying](https://juejin.im/post/5dd10660e51d453fac0a598d)
 
 # 前言
 在上一篇文章中，我们初步介绍了 UAF 原理，并提到了 iOS 10.0 - 12.2 的 Socket 代码中含有一个针对 `in6p_outputopts` 的 UAF Exploit，它是整个 Sock Port 漏洞的关键。从这篇文章开始，我们将逐行分析 [Sock Port 2 的 Public PoC 源码](https://github.com/jakeajames/sock_port/tree/sock_port_2)，并结合 XNU 源码进行深入分析和解释。

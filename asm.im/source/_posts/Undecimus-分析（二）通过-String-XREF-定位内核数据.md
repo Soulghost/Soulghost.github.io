@@ -4,13 +4,6 @@ date: 2019-12-29 21:00:00
 tags: ['JailBreak', 'Undecimus', 'XREF']
 ---
 
-# 系列文章
-1. [iOS Jailbreak Principles - Sock Port 漏洞解析（一）UAF 与 Heap Spraying](https://juejin.im/post/5dd10660e51d453fac0a598d)
-2. [iOS Jailbreak Principles - Sock Port 漏洞解析（二）通过 Mach OOL Message 泄露 Port Address](https://juejin.im/post/5dd918d051882573180a2ba7)
-3. [iOS Jailbreak Principles - Sock Port 漏洞解析（三）IOSurface Heap Spraying](https://juejin.im/post/5de37a236fb9a071b5615dea)
-4. [iOS Jailbreak Principles - Sock Port 漏洞解析（四）The tfp0 !](https://juejin.im/post/5dec7f2f6fb9a0160c411516)
-5. [iOS Jailbreak Principles - Undecimus 分析（一）Escape from Sandbox](https://juejin.im/post/5df5f6416fb9a016402d1cc0)
-
 # 前言
 在内核中有许多关键变量和校验，为获得这些变量和绕过校验就要求我们在内存中定位这些地址。本文将介绍 Undecimus 中基于 String XREF 定位关键内存地址的方法，通过该方法不仅可以准确定位内核中的特定元素，也能为自行设计二进制分析工具带来很好的启发。
 

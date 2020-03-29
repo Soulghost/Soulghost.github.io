@@ -4,14 +4,6 @@ date: 2020-01-12 21:00:00
 tags: ['JailBreak', 'Undecimus', 'KEXEC', 'JOP']
 ---
 
-# 系列文章
-1. [iOS Jailbreak Principles - Sock Port 漏洞解析（一）UAF 与 Heap Spraying](https://juejin.im/post/5dd10660e51d453fac0a598d)
-2. [iOS Jailbreak Principles - Sock Port 漏洞解析（二）通过 Mach OOL Message 泄露 Port Address](https://juejin.im/post/5dd918d051882573180a2ba7)
-3. [iOS Jailbreak Principles - Sock Port 漏洞解析（三）IOSurface Heap Spraying](https://juejin.im/post/5de37a236fb9a071b5615dea)
-4. [iOS Jailbreak Principles - Sock Port 漏洞解析（四）The tfp0 !](https://juejin.im/post/5dec7f2f6fb9a0160c411516)
-5. [iOS Jailbreak Principles - Undecimus 分析（一）Escape from Sandbox](https://juejin.im/post/5df5f6416fb9a016402d1cc0)
-6. [iOS Jailbreak Principles - Undecimus 分析（二）通过 String XREF 定位内核数据](https://juejin.im/post/5e087dbd51882549757e5be2)
-
 # 前言
 在 [上一篇文章](https://juejin.im/post/5e087dbd51882549757e5be2) 中我们介绍了基于 String 的交叉引用定位内核数据的方法，基于此我们可以定位变量和函数地址。本文将介绍结合tfp0、String XREF 定位和 IOTrap 实现内核任意代码执行的过程。一旦达成这个 Primitive，我们就能以 root 权限执行内核函数，从而更好的控制内核。
 
