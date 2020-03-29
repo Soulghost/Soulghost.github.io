@@ -102,3 +102,10 @@ deploy:
   repo: https://github.com/Soulghost/Soulghost.github.io
   # example, https://github.com/hexojs/hexojs.github.io
   branch: master
+
+menu:
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+  About: /about
