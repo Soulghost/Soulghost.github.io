@@ -316,10 +316,7 @@ return ret == 0;
 2. [FreeBSD Manual Pages: BSD Kernel Developer's Manual VNODE(9)](https://www.freebsd.org/cgi/man.cgi?query=vnode)
 3. [GeoSn0w: Jailbreaks Demystified - Remounting the File System
 ](https://geosn0w.github.io/Jailbreaks-Demystified/)
-4. [Xiaolong Bai: The last line of defense:
-understanding and
-attacking Apple File
-System on iOS](https://i.blackhat.com/eu-18/Thu-Dec-6/eu-18-Bai-The-Last-Line-Of-Defense-Understanding-And-Attacking-Apple-File-System-On-IOS.pdf#)
+4. [Xiaolong Bai: The last line of defense: understanding and attacking Apple File System on iOS](https://i.blackhat.com/eu-18/Thu-Dec-6/eu-18-Bai-The-Last-Line-Of-Defense-Understanding-And-Attacking-Apple-File-System-On-IOS.pdf#)
 5. [Pwn20wnd & sbingner: Undecimus](https://github.com/pwn20wndstuff/Undecimus)
 6. [Coolstar: Chimera13](https://github.com/coolstar/Chimera13/)
 7. [jakeajames: jelbrekLib](https://github.com/jakeajames/jelbrekLib)
