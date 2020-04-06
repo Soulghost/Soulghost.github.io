@@ -4,16 +4,6 @@ date: 2020-04-06 20:27:22
 tags: ['JailBreak', 'Undecimus', 'Chimera', 'rootfs', 'APFS', 'remount']
 ---
 
-# 系列文章
-1. [iOS Jailbreak Principles - Sock Port 漏洞解析（一）UAF 与 Heap Spraying](https://juejin.im/post/5dd10660e51d453fac0a598d)
-2. [iOS Jailbreak Principles - Sock Port 漏洞解析（二）通过 Mach OOL Message 泄露 Port Address](https://juejin.im/post/5dd918d051882573180a2ba7)
-3. [iOS Jailbreak Principles - Sock Port 漏洞解析（三）IOSurface Heap Spraying](https://juejin.im/post/5de37a236fb9a071b5615dea)
-4. [iOS Jailbreak Principles - Sock Port 漏洞解析（四）The tfp0 !](https://juejin.im/post/5dec7f2f6fb9a0160c411516)
-5. [iOS Jailbreak Principles - Undecimus 分析（一）Escape from Sandbox](https://juejin.im/post/5df5f6416fb9a016402d1cc0)
-6. [iOS Jailbreak Principles - Undecimus 分析（二）通过 String XREF 定位内核数据](https://juejin.im/post/5e087dbd51882549757e5be2)
-7. [iOS Jailbreak Principles - Undecimus 分析（三）通过 IOTrap 实现内核任意代码执行](https://juejin.im/post/5e1ac76d51882520c02c82c0)
-8. [iOS Jailbreak Principles - Undecimus 分析（四）绕过 A12 的 PAC 实现 kexec](https://juejin.im/post/5e415da86fb9a07c9a194f3b)
-
 # 前言
 在之前的文章中我们介绍了 iOS 12 获取 tfp0 以及基于 tfp0 实现 kexec 的原理。从这篇文章开始我们开始分析 tfp0 和 kexec 之后的 jailbreak 环境布置原理，主要包括 rootfs 的读写与持久化、ssh 等远程服务的启动、非法签名代码的执行以及 Hook 系统等。这一篇我们主要介绍 rootfs 的读写与持久化原理。
 
